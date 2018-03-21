@@ -10,6 +10,7 @@ deploy:
   bucket: hashchange
   local_dir: $TRAVIS_BUILD_DIR/dist
   skip_cleanup: true
+  cache_control: "max-age=21600"
   on:
     branch: master
 branches:
