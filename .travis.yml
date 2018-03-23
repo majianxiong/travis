@@ -12,7 +12,7 @@ deploy:
   skip_cleanup: true
   cache_control: "max-age=21600"
   on:
-    branch: master
+    branch: development
 branches:
   only:
-  - master
+  - development
