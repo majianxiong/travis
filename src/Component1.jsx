@@ -7,7 +7,7 @@ export default class Component1 extends Component {
     render() {
         return (
             <h1>
-                Component 1
+                Component 1 updated
             </h1>
         );
     }
